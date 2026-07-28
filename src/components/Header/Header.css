@@ -1,83 +1,88 @@
-.header{
+.header {
     position: sticky;
-    top: 0;
-    z-index: 999;
+    top: 20px;
+
+    width: calc(100% - 40px);
+    max-width: 1400px;
+
+    margin: 20px auto;
+    padding: 0 30px;
+
+    height: 70px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    background: #0F172A;
-    padding: 0 60px;
+    background: #1E293B;
+    border-radius: 16px;
+
+    z-index: 1000;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    color: white;
-
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.logo-icon{
-    color: #3B82F6;
-    font-size: 28px;
-}
-
-.desktop-menu{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.desktop-menu .ant-menu{
-    background: transparent;
-    border-bottom: none;
-    color: white;
-}
-
-.desktop-menu .ant-menu-item a{
-    color: white;
-    transition: .3s;
-}
-
-.desktop-menu .ant-menu-item a:hover{
-    color: #3B82F6;
-}
-
-.hire-btn{
+.hire-btn {
     background: #3B82F6;
     border: none;
+
+    height: 42px;
+    padding: 0 24px;
+
+    border-radius: 10px;
     font-weight: 600;
 }
 
-.mobile-btn{
-    display: none;
+.desktop-menu .ant-menu {
+    background: transparent !important;
+    border-bottom: none !important;
 }
 
-@media(max-width:768px){
-
-.desktop-menu{
-display:none;
+.desktop-menu .ant-menu-item {
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 8px !important;
+    border-bottom: none !important;
 }
 
-.hire-btn{
-display:none;
+.desktop-menu .ant-menu-item a {
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
-.mobile-btn{
-display:block;
+.desktop-menu .ant-menu-item:hover {
+    background: rgba(59, 130, 246, 0.12) !important;
+    border-radius: 8px;
 }
+
+.desktop-menu .ant-menu-item:hover a {
+    color: #3B82F6 !important;
+}
+
+.ant-menu-horizontal::after {
+    border-bottom: none !important;
+}
+
+.ant-menu-item::after {
+    border-bottom: none !important;
+}
+
+
+
+
+@media (max-width:768px){
 
 .header{
-padding:0 20px;
-}
 
-.logo span{
-font-size:18px;
+width:calc(100% - 20px);
+
+margin:10px auto;
+
+padding:0 15px;
+
+height:65px;
+
 }
 
 }
