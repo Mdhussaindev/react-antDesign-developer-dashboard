@@ -57,13 +57,28 @@ const HeaderComponent = () => {
         />
 
       </div>
-
+{/* 
       <Button
         type="primary"
         className="hire-btn"
       >
         Hire Me
-      </Button>
+      </Button> */}
+
+      <Button
+  type="primary"
+  className="hire-btn"
+  onClick={() => {
+    document.getElementById("contact")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }}
+>
+  Hire Me
+</Button>
+
+    
 
       <Button
         className="mobile-btn"

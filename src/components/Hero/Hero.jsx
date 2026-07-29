@@ -58,16 +58,15 @@ function Hero() {
 
         <div className="hero-card">
 
-          <h2>Frontend Developer</h2>
+          <h2 className="tech-card">Frontend Developer</h2>
 
-          <p>React JS</p>
+<p className="tech-card">React JS</p>
 
-          <p>JavaScript</p>
+<p className="tech-card">JavaScript</p>
 
-          <p>Firebase</p>
+<p className="tech-card">Firebase</p>
 
-          <p>Ant Design</p>
-
+<p className="tech-card">Ant Design</p>
         </div>
 
       </div>
