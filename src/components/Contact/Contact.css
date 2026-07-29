@@ -150,3 +150,33 @@ font-size:34px;
 }
 
 }
+
+.social-icons a{
+color:#1677ff;
+font-size:30px;
+transition:.3s;
+}
+
+.social-icons a:hover{
+color:#0958d9;
+transform:translateY(-5px) scale(1.15);
+}
+
+.info-card a{
+color:#64748b;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.info-card a:hover{
+color:#1677ff;
+}
+
+.resume-btn{
+margin-top:25px;
+width:100%;
+height:48px;
+border-radius:12px;
+font-weight:600;
+}
