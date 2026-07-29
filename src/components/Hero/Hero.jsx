@@ -1,5 +1,7 @@
 import React from "react";
+import CV from "../../assets/Muhammad-Hussain-CV.pdf";
 import "./Hero.css";
+
 
 import { Button, Tag } from "antd";
 import {
@@ -43,13 +45,14 @@ function Hero() {
             View Projects
           </Button>
 
-          <Button
-            size="large"
-            icon={<DownloadOutlined />}
-          >
-            Download CV
-          </Button>
-
+          <a href={CV} download>
+  <Button
+    size="large"
+    icon={<DownloadOutlined />}
+  >
+    Download CV
+  </Button>
+</a>
         </div>
 
       </div>
