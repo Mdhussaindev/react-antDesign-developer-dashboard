@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 import "./Contact.css";
+import { MdOutlineMail } from "react-icons/md";
+import { FiPhoneCall } from "react-icons/fi";
+import { FaLocationDot } from "react-icons/fa6";
 
 import {
   Card,
@@ -13,10 +16,9 @@ import {
   notification,
 } from "antd";
 
+
 import {
-  MailOutlined,
-  PhoneOutlined,
-  EnvironmentOutlined,
+  
   GithubOutlined,
   LinkedinOutlined,
   UploadOutlined,
@@ -162,7 +164,7 @@ function Contact() {
 
           <Card className="info-card">
 
-            <MailOutlined className="info-icon" />
+            <MdOutlineMail className="info-icon" />
 
             <h3>Email</h3>
 
@@ -176,7 +178,7 @@ function Contact() {
 
           <Card className="info-card">
 
-            <PhoneOutlined className="info-icon" />
+            <FiPhoneCall className="info-icon" />
 
             <h3> Phone</h3>
 
@@ -188,7 +190,7 @@ function Contact() {
 
           <Card className="info-card">
 
-            <EnvironmentOutlined className="info-icon" />
+            <FaLocationDot className="info-icon" />
 
             <h3>Location</h3>
 
