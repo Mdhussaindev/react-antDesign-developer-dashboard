@@ -54,6 +54,7 @@
 .desktop-menu .ant-menu-item:hover {
     background: rgba(59, 130, 246, 0.12) !important;
     border-radius: 8px;
+    text-decoration: solid;
 }
 
 .desktop-menu .ant-menu-item:hover a {
