@@ -180,7 +180,7 @@ function Contact() {
 
             <h3>Phone</h3>
 
-            <a href="tel:+923150278120">
+            <a href="tel:+923482237414">
               +92 348-2237414
             </a>
 

@@ -24,6 +24,10 @@ const HeaderComponent = () => {
       label: <a href="#skills">Skills</a>,
     },
     {
+    key: "services",
+    label: <a href="#services">Services</a>,
+    },
+    {
       key: "projects",
       label: <a href="#projects">Projects</a>,
     },
