@@ -84,20 +84,21 @@ function Projects() {
               <div className="project-buttons">
 
                 <Button
-                type="primary"
-                href="https://hussain-react-project.netlify.app/"
-                target="_blank"
-                >
-                Live Demo
-                </Button>
+  type="primary"
+  icon={<LinkOutlined />}
+  href="https://hussain-react-project.netlify.app/"
+  target="_blank"
+>
+  Live Demo
+</Button>
 
                 <Button
-                type="primary"
-                href="https://github.com/Mdhussaindev"
-                target="_blank"
-                >
-                GitHub
-                </Button>
+  icon={<GithubOutlined />}
+  href="https://github.com/Mdhussaindev"
+  target="_blank"
+>
+  GitHub
+</Button>
 
               </div>
 
