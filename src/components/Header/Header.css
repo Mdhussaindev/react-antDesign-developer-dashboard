@@ -169,3 +169,43 @@ height:65px;
     transform:rotate(-15deg) scale(1.15);
 
 }
+
+.ant-drawer-body {
+  overflow-x: hidden !important;
+}
+
+.ant-drawer-content {
+  overflow-x: hidden !important;
+}
+
+.ant-drawer-content-wrapper {
+  overflow-x: hidden !important;
+}
+
+.ant-drawer-body {
+    overflow-y: auto;
+    scrollbar-width: none;      /* Firefox */
+}
+
+.ant-drawer-body::-webkit-scrollbar {
+    display: none;              /* Chrome, Edge */
+}
+
+@media (max-width: 992px) {
+
+  .desktop-menu,
+  .hire-btn {
+    display: none !important;
+  }
+
+  .mobile-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    padding: 0 20px;
+  }
+}
+
