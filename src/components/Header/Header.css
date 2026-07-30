@@ -70,25 +70,7 @@
 }
 
 
-
-
-/* @media (max-width:768px){
-
-.header{
-
-width:calc(100% - 20px);
-
-margin:10px auto;
-
-padding:0 15px;
-
-height:65px;
-
-}
-
-} */
-
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
 
     .header{
         width: calc(100% - 20px);
@@ -99,8 +81,7 @@ height:65px;
 
     .desktop-menu,
     .hire-btn{
-
-        display:none !important;
+        display: none !important;
     }
 
     .mobile-btn{
@@ -113,7 +94,6 @@ height:65px;
         border: none;
         font-size: 24px;
     }
-
 }
 
 .mobile-btn{
@@ -233,11 +213,11 @@ height:65px;
 
 .ant-drawer-body {
     overflow-y: auto;
-    scrollbar-width: none;      /* Firefox */
+    scrollbar-width: none;     
 }
 
 .ant-drawer-body::-webkit-scrollbar {
-    display: none;              /* Chrome, Edge */
+    display: none;              
 }
 
 @media (max-width: 992px) {

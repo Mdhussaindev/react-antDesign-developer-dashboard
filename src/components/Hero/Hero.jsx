@@ -63,13 +63,14 @@ function Hero() {
 
           <h2 className="tech-card">Frontend Developer</h2>
 
-<p className="tech-card">React JS</p>
+          <p className="tech-card">React JS</p>
 
-<p className="tech-card">JavaScript</p>
+          <p className="tech-card">JavaScript</p>
 
-<p className="tech-card">Firebase</p>
+          <p className="tech-card">Firebase</p>
 
-<p className="tech-card">Ant Design</p>
+          <p className="tech-card">Ant Design</p>
+          
         </div>
 
       </div>

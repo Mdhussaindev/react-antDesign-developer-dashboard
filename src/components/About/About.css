@@ -25,12 +25,6 @@
     gap:30px;
 }
 
-/* .about-cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-    align-items:stretch;
-} */
 
 .about-icon{
     font-size:40px;
@@ -68,7 +62,6 @@
     align-items:stretch;
 }
 
-/* Premium Glass Card */
 
 .about .ant-card{
     height:100%;

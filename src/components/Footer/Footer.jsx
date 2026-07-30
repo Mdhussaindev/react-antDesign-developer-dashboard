@@ -56,7 +56,7 @@ const Footer = () => {
           </p>
 
             <p>
-  <PhoneOutlined className="phone-icon" /> +92 348-2237414</p>
+            <PhoneOutlined className="phone-icon" /> +92 348-2237414</p>
 
           <p>
             <EnvironmentOutlined /> Karachi, Pakistan

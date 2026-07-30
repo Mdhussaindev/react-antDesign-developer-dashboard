@@ -1,4 +1,3 @@
-// 
 
 import React, { useState } from "react";
 import "./Contact.css";
@@ -71,8 +70,6 @@ function Contact() {
       </div>
 
       <div className="contact-container">
-
-        {/* Left Side */}
 
         <Card className="contact-form-card">
 
@@ -158,7 +155,6 @@ function Contact() {
 
         </Card>
 
-        {/* Right Side */}
 
         <div className="contact-info">
 
